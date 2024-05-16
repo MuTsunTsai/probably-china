@@ -1,6 +1,6 @@
 {
 	"name": "probably-china",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "A lucky guess that we are probably in China or facing a Chinese user.",
 	"main": "index.js",
 	"types": "index.d.ts",
