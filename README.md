@@ -11,3 +11,17 @@ based on the available browser info. It currently uses two strategies:
 2. Check if the current timezone is one of the Chinese timezones.
 
 The use case for this package is not to avoid showing information that are sensitive in China.
+
+## Usage
+
+Install the package:
+
+```bash
+pnpm add probably-china
+```
+
+And it exports a single boolean constant:
+
+```js
+import { probablyChina } from "probably-china";
+```

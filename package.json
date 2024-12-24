@@ -2,12 +2,22 @@
 	"name": "probably-china",
 	"version": "1.0.0",
 	"description": "A lucky guess that we are probably in China or facing a Chinese user.",
-	"main": "index.js",
-	"types": "index.d.ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"keywords": [
 		"China"
 	],
 	"author": "Mu-Tsun Tsai <don.m.t.tsai@gmail.com> (https://github.com/MuTsunTsai)",
 	"repository": "github:MuTsunTsai/probably-china",
-	"license": "MIT"
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"start": "pnpx http-server -o /test"
+	},
+	"devDependencies": {
+		"eslint": "^9.17.0",
+		"eslint-plugin-compat": "^6.0.2"
+	}
 }
